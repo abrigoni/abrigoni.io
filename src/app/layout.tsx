@@ -1,9 +1,9 @@
 import './globals.css'
-import { Montserrat } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 import clsx from 'clsx'
 import SideBar from '@/components/SideBar'
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const nunito_sans = Nunito_Sans({ subsets: ['latin' ]});
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={clsx("text-black bg-white dark:text-white dark:bg-[#13131A]", montserrat.className)}
+      className={clsx("text-black bg-white dark:text-white dark:bg-[#0F0F0F]", nunito_sans.className)}
     >
       <body className="antialiased flex flex-col md:flex-row gap-8 mt-8 md:mt-20 lg:mt-32 px-8 md:px-16">
         <SideBar />

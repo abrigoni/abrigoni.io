@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import avatar from './avatar.JPG';
+import avatar from './avatar.jpg';
 
 
 export default function Home() {
