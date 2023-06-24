@@ -1,7 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import clsx from 'clsx'
+import SideBar from '@/components/SideBar'
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -14,8 +16,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="en"
+      className={clsx("text-black bg-white dark:text-white dark:bg-[#13131A]", montserrat.className)}
+    >
+      <body className="antialiased flex flex-col md:flex-row gap-8 mt-8 md:mt-20 lg:mt-32 px-8 md:px-16">
+        <SideBar />
+        <main className="flex-auto flex flex-col">
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
