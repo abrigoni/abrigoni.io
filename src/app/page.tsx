@@ -18,7 +18,7 @@ export default function Home() {
           width={100}
           priority
         />
-        <div className="ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
+        <div className="ml-6 space-y-2 text-neutral-500 dark:text-neutral-400 flex flex-col">
           <a href="https://www.linkedin.com/in/brian-rigoni" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} />
           </a>
