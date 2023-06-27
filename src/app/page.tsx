@@ -8,7 +8,7 @@ export default function Home() {
     <section>
       <h1 className="text-3xl font-serif font-bold">Ariel Rigoni</h1>
       <p className="my-5 max-w-md text-neutral-800 dark:text-neutral-200">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Hey, I&apos;m Ariel, a Full Stack Developer.
       </p>
       <div className="flex md:flex-row items-center my-5">
         <Image
@@ -19,13 +19,19 @@ export default function Home() {
           priority
         />
         <div className="ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-          <FaLinkedin size={24} />
-          <FaGithub size={24} />
-          <FaInstagram size={24} />
+          <a href="https://www.linkedin.com/in/brian-rigoni" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={24} />
+          </a>
+          <a href="https://www.github.com/abrigoni" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} />
+          </a>
+          <a href="https://www.instagram.com/brian.rigoni" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={24} />
+          </a>
         </div>
       </div>
       <p className="my-5 max-w-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ex id leo mattis, ut consequat mi pellentesque. Fusce eleifend ex vitae lacinia tincidunt. Curabitur congue enim nec mauris rutrum, ut pulvinar justo aliquet. Duis consequat sem a purus dapibus, ac fringilla velit luctus. Nam eu metus elit.
+        I&apos;m a Full Stack Developer with around 3 to 4 years of experience, primarily focusing on web projects with React.js and mobile applications with React Native. On my free time I enjoy building side projects and trying new technologies.
       </p>
     </section>
   )
