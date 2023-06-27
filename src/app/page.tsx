@@ -6,9 +6,9 @@ import avatar from './avatar.jpg';
 export default function Home() {
   return (
     <section>
-      <h1 className="text-3xl font-serif font-bold">Ariel Rigoni</h1>
+      <h1 className="text-3xl font-serif font-bold">Brian Rigoni</h1>
       <p className="my-5 max-w-lg text-neutral-800 dark:text-neutral-200">
-        Hey, I&apos;m Ariel a Full Stack Developer from Argentina 🇦🇷 ⭐⭐⭐ and currently based in Berlin, Germany 🇩🇪
+        Hey, I&apos;m Brian a Full Stack Developer from Argentina 🇦🇷 ⭐⭐⭐ and currently based in Berlin, Germany 🇩🇪
       </p>
       <div className="flex md:flex-row items-center my-5">
         <Image
