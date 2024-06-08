@@ -1,6 +1,7 @@
 import './globals.css'
 import { Nunito_Sans } from 'next/font/google'
 import clsx from 'clsx'
+import { Analytics } from '@vercel/analytics/react';
 import SideBar from '@/components/SideBar'
 
 const nunito_sans = Nunito_Sans({ subsets: ['latin' ]});
@@ -26,6 +27,7 @@ export default function RootLayout({
         <SideBar />
         <main className="flex-auto flex flex-col">
           {children}
+          <Analytics />
         </main>
       </body>
     </html>
