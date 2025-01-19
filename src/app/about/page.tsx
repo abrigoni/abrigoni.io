@@ -3,7 +3,7 @@ export default function About() {
     <section>
       <h1 className="text-3xl font-serif font-bold">About Me</h1>
       <p className="my-5 max-w-lg text-neutral-800 dark:text-neutral-200">
-        Hey, I&apos;m Brian Rigoni, Currently, I&apos;m a Full Stack Developer with 4-5 years of experience, primarily focusing on web projects with React.js and mobile applications with React Native. I&apos;ve had the opportunity to work with companies both in Argentina and the U.S., predominantly utilizing TypeScript in my work.
+        Hey, I&apos;m Brian Rigoni, Currently, I&apos;m a Full Stack Developer with more than 5 years of experience, primarily focusing on web projects with React.js and mobile applications with React Native. I&apos;ve had the opportunity to work with companies both in Argentina and the U.S., predominantly utilizing TypeScript in my work.
       </p>
       <hr className="max-w-lg" />
       <p className="my-5 max-w-lg text-neutral-800 dark:text-neutral-200">
@@ -14,7 +14,6 @@ export default function About() {
         <a href="https://www.argentina.gob.ar/interior/ambiente/parquesnacionales/tierradelfuego" target="_blank" rel="noopener noreferrer">
           National Park of Tierra del Fuego in Argentina.
         </a>
-        This is just one of the ways I have integrated my passion for machine learning into real, functional applications, alongside a fitness application and an extension for streaming platforms that I am currently developing.
       </p>
 
     </section>

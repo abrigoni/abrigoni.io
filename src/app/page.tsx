@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <p className="my-5 max-w-xl">
-        I&apos;m a Full Stack Developer with 4-5 of experience, primarily focusing on web projects with React.js and mobile applications with React Native. On my free time I enjoy building side projects and trying new technologies.
+        I&apos;m a Full Stack Developer with +5 years of experience, primarily focusing on web projects with React.js and mobile applications with React Native. On my free time I enjoy building side projects and trying new technologies.
       </p>
     </section>
   )
